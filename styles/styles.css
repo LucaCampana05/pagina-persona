@@ -235,19 +235,23 @@ textarea{
   padding: 10px;
   border-radius: 15px;
 }
-/* Estilos para pantallas grandes */
-@media only screen and (min-width: 1024px) {
-  /* Agrega tus estilos aquí */
+/* Estilos para dispositivos móviles (teléfonos) */
+@media only screen and (max-width: 767px) {
+  /* Agrega tus estilos para dispositivos móviles aquí */
+  .container {
+    width: 90%; /* Porcentaje del ancho de la pantalla */
+    margin: 0 auto; /* Centrar el contenedor */
+  }
 }
 
-/* Estilos para pantallas pequeñas */
-@media only screen and (max-width: 767px) {
-  /* Agrega tus estilos aquí */
+/* Estilos para pantallas más grandes (como tablets y computadoras) */
+@media only screen and (min-width: 768px) {
+  /* Agrega tus estilos para pantallas más grandes aquí */
+  .container {
+    max-width: 1200px; /* Ancho máximo para pantallas grandes */
+    margin: 0 auto; /* Centrar el contenedor */
+  }
 }
-.container {
-  width: 90%; /* Porcentaje del ancho de la pantalla */
-  max-width: 1200px; /* Ancho máximo para pantallas grandes */
-  margin: 0 auto; /* Centrar el contenedor */
-}
+
 
 /*fin estilos cards atividades*/
