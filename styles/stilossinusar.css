@@ -1,0 +1,23 @@
+/* Estilo para el contenedor de las tarjetas */
+.cards-container {
+    background-color: aqua;
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 5px solid green;
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    align-items: center;
+  }
+
+  h1 {
+    margin-bottom: 20px; /* Agrega un margen en la parte inferior del elemento h1 */
+  }
+  
+  h2 {
+    margin-top: 20px; /* Agrega un margen en la parte superior del elemento h2 */
+  }
+  
