@@ -1,6 +1,6 @@
 /* Estilo de fondo para el body */
 body {
-  background-image: url(/imag/jackson-hendry-eodA_8CTOFo-unsplash.jpg);
+  background-image: url(/imag/jackson-hendry-eodA_8CTOFo-unsplash.jpg/);
   background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
   background-position: center; /* Centra la imagen en el fondo */
 }
@@ -235,13 +235,19 @@ textarea{
   padding: 10px;
   border-radius: 15px;
 }
-@media only screen and (max-width: 560px){
-  #contaner_activities{        
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
-  }    
-      
-  
+/* Estilos para pantallas grandes */
+@media only screen and (min-width: 1024px) {
+  /* Agrega tus estilos aquí */
 }
+
+/* Estilos para pantallas pequeñas */
+@media only screen and (max-width: 767px) {
+  /* Agrega tus estilos aquí */
+}
+.container {
+  width: 90%; /* Porcentaje del ancho de la pantalla */
+  max-width: 1200px; /* Ancho máximo para pantallas grandes */
+  margin: 0 auto; /* Centrar el contenedor */
+}
+
 /*fin estilos cards atividades*/
